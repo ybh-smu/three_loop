@@ -1,0 +1,44 @@
+# ===== 编译构建目录 =====
+build/
+cmake-build-*/
+Build/
+
+# ===== 大体积数据文件 =====
+*.raw
+*.npy
+*.root
+*.dat
+*.csv
+*.dcm
+
+# ===== 数据目录 =====
+date/
+date2/
+date/新建文件夹/
+date2/新建文件夹/
+新建文件夹/
+output/
+output1/
+output2/
+output3/
+output4/
+output5/
+output6/
+log/
+show/
+tools/
+
+# ===== CMake缓存文件 =====
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# ===== IDE临时文件 =====
+.vscode/
+.idea/
+.vs/
+
+# ===== 系统垃圾文件 =====
+.DS_Store
+Thumbs.db

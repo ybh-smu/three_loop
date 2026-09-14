@@ -1,0 +1,20 @@
+# 定义第一个源
+#/gps/source/intensity 1
+#/gps/particle gamma
+#/gps/pos/type Point
+#/gps/pos/centre 0 0 0 cm
+#/gps/ang/type iso
+#/gps/ene/type Mono
+#/gps/ene/mono 1.33 MeV
+
+# 添加第二个源
+#/gps/source/add 1
+#/gps/particle gamma
+#/gps/pos/type Point
+#/gps/pos/centre 1 0 0 cm
+#/gps/ang/type iso
+#/gps/ene/type Mono
+#/gps/ene/mono 1.17 MeV
+
+# 运行模拟
+/run/beamOn 10000000

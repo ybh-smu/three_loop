@@ -1,0 +1,3 @@
+/detector/setObjectAngle {angle} deg
+/run/initialize
+/run/beamOn 2000000000

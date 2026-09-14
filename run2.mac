@@ -1,0 +1,16 @@
+# 第一组：Front
+/source/setView Front
+# 或者直接指定源位置：
+# /source/setPosition -350 0 100 mm
+/runAction/setOutputDirectory ../output1
+/runAction/setOutputPrefix Front
+/control/loop run1.mac angle 0 360 5.8064
+
+# 第二组：Back
+/source/setView Back
+# 或者直接指定源位置：
+# /source/setPosition -350 0 -100 mm
+/runAction/setOutputDirectory ../output1
+/runAction/setOutputPrefix Back
+/control/loop run1.mac angle 2.9032 360 5.8064
+

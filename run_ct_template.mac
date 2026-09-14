@@ -1,0 +1,6 @@
+/detector/useCt true
+/detector/setCtMetaFile ../date/cq500_ct418_hu_noborder.meta
+/run/initialize
+
+# First test with a very small event count.
+/run/beamOn 100000000
